@@ -53,7 +53,7 @@ class Whois:
                             value = kv[1]
                         except IndexError:
                             value = ''    
-                    # Get ride of unecessary spaces     
+                    # Get rid of unecessary spaces     
                     block[key] = value.strip()
                 # else, and if we have already a block : append the block to the result list and empty the block dict.    
                 elif (len(block) > 1):
